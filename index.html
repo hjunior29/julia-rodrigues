@@ -116,47 +116,8 @@
             }
         }
 
-        @keyframes dynamicFloat {
-            0% {
-                transform: translate(0, 0) rotate(0deg) scale(1);
-                animation-timing-function: ease-out;
-            }
-            12.5% {
-                transform: translate(7px, -10px) rotate(45deg) scale(1.08);
-            }
-            25% {
-                transform: translate(15px, 0) rotate(90deg) scale(1);
-                animation-timing-function: ease-in;
-            }
-            37.5% {
-                transform: translate(7px, -10px) rotate(135deg) scale(1.08);
-            }
-            50% {
-                transform: translate(0, 0) rotate(180deg) scale(1);
-                animation-timing-function: ease-out;
-            }
-            62.5% {
-                transform: translate(-7px, -10px) rotate(225deg) scale(1.08);
-            }
-            75% {
-                transform: translate(-15px, 0) rotate(270deg) scale(1);
-                animation-timing-function: ease-in;
-            }
-            87.5% {
-                transform: translate(-7px, -10px) rotate(315deg) scale(1.08);
-            }
-            100% {
-                transform: translate(0, 0) rotate(360deg) scale(1);
-            }
-        }
-
         .animate-rotate {
             animation: rotate 20s linear infinite;
-        }
-
-        .animate-dynamic {
-            animation: dynamicFloat 6s infinite;
-            transform-origin: center center;
         }
 
         .animate-fade-in-up {
@@ -341,7 +302,7 @@
         <div class="relative z-10 max-w-7xl mx-auto px-6 md:px-12 grid md:grid-cols-2 gap-12 items-center">
             <div class="text-center md:text-left space-y-6 opacity-0 animate-slide-in-left">
                 <div class="flex justify-center md:justify-start mb-6">
-                    <img src="assets/logos/Símbolo Azul.png" alt="Símbolo Julia Rodrigues" class="h-20 md:h-24 animate-dynamic">
+                    <img src="assets/logos/Símbolo Azul.png" alt="Símbolo Julia Rodrigues" class="h-20 md:h-24 animate-float">
                 </div>
                 <h1 class="text-5xl md:text-7xl font-regular text-brand-dark leading-tight">
                     Movimento é <span class="text-brand-blue">felicidade</span>
