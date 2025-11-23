@@ -1,10 +1,18 @@
 # Julia Rodrigues - Personal Trainer
 
-> **Movimento é felicidade**
+<div align="center">
+  <img src="assets/logos/Logo Horizontal Azul.png" alt="Julia Rodrigues Logo" width="400">
 
-Site oficial de Julia Rodrigues, profissional de Educação Física especializada em Mat Pilates e Musculação.
+  ### **Movimento é felicidade**
+
+  Site oficial de Julia Rodrigues, profissional de Educação Física especializada em Mat Pilates e Musculação.
+</div>
+
+---
 
 ## 🌟 Sobre Julia Rodrigues
+
+<img src="assets/images/Quem sou eu.png" alt="Julia Rodrigues" align="right" width="300" style="border-radius: 15px; margin-left: 20px;">
 
 Julia Rodrigues é uma profissional dedicada que acredita no poder transformador do movimento consciente. Sua missão vai além da estética: é ajudar pessoas a descobrirem que o movimento é a base da felicidade e da saúde integral.
 
@@ -43,8 +51,11 @@ Inicie sua transformação com treinos personalizados e acompanhamento contínuo
 
 ## 📱 Contato
 
-- **WhatsApp**: [(62) 98250-4631](https://wa.me/5562982504631)
-- **Instagram**: [@prof.julia.rodrigues](https://www.instagram.com/prof.julia.rodrigues)
+<div align="center">
+  <img src="assets/logos/Selo Amarelo.png" alt="Selo Julia Rodrigues" width="120">
+
+  **WhatsApp**: [(62) 98250-4631](https://wa.me/5562982504631) | **Instagram**: [@prof.julia.rodrigues](https://www.instagram.com/prof.julia.rodrigues)
+</div>
 
 ## 🎯 Filosofia de Trabalho
 
