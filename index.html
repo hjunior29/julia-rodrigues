@@ -9,6 +9,9 @@
     <!-- Favicon will be set randomly by JavaScript -->
     <link rel="icon" type="image/x-icon" href="" id="favicon">
 
+    <!-- Preload Largest Contentful Paint (LCP) hero image -->
+    <link rel="preload" as="image" href="assets/images/Benefícios 9:16 sem Logo.webp" type="image/webp" fetchpriority="high">
+
     <script>
         // Randomly choose between blue and yellow favicon (50/50)
         const favicons = ['assets/favicon/favicon-azul.ico', 'assets/favicon/favicon-amarelo.ico'];
@@ -350,7 +353,10 @@
     <nav id="navbar" class="fixed w-full top-0 z-50 py-4 px-6 md:px-12 transition-all duration-300">
         <div class="max-w-7xl mx-auto flex justify-between items-center">
             <a href="#home" class="flex items-center">
-                <img src="assets/logos/Logo Horizontal Azul.png" alt="Julia Rodrigues Logo" class="h-12 md:h-16">
+                <picture>
+                    <source srcset="assets/logos/Logo Horizontal Azul.webp" type="image/webp">
+                    <img src="assets/logos/Logo Horizontal Azul.png" alt="Julia Rodrigues Logo" class="h-12 md:h-16 w-auto" width="1548" height="436">
+                </picture>
             </a>
             <div class="hidden md:flex space-x-8 font-light">
                 <a href="#inicio"
@@ -417,8 +423,12 @@
                 <div class="relative">
                     <div class="absolute -inset-4 bg-brand-blue opacity-20 blur-3xl rounded-full"></div>
                     <div class="relative rounded-3xl shadow-2xl w-full overflow-hidden" style="height: 700px;">
-                        <img src="assets/images/Benefícios 9:16 sem Logo.png" alt="Julia Rodrigues Mat Pilates"
-                            class="w-full h-full object-cover object-bottom">
+                        <picture>
+                            <source srcset="assets/images/Benefícios 9:16 sem Logo.webp" type="image/webp">
+                            <img src="assets/images/Benefícios 9:16 sem Logo.png" alt="Julia Rodrigues Mat Pilates"
+                                class="w-full h-full object-cover object-bottom" width="1071" height="1920"
+                                fetchpriority="high" decoding="async">
+                        </picture>
                     </div>
                 </div>
             </div>
@@ -430,8 +440,12 @@
         <div class="max-w-7xl mx-auto px-6 md:px-12">
             <div class="grid md:grid-cols-2 gap-16 items-center">
                 <div class="space-y-6 opacity-0 animate-fade-in-up" style="height: 700px;">
-                    <img src="assets/images/Quem sou eu.png" alt="Julia Rodrigues"
-                        class="rounded-3xl shadow-xl w-full h-full object-cover object-center">
+                    <picture>
+                        <source srcset="assets/images/Quem sou eu.webp" type="image/webp">
+                        <img src="assets/images/Quem sou eu.png" alt="Julia Rodrigues"
+                            class="rounded-3xl shadow-xl w-full h-full object-cover object-center" width="1080" height="1920"
+                            loading="lazy" decoding="async">
+                    </picture>
                 </div>
                 <div class="space-y-6 opacity-0 animate-fade-in-up delay-200">
                     <h2 class="text-4xl md:text-5xl font-semibold text-brand-blue">
@@ -482,8 +496,12 @@
                 <!-- Mat Pilates -->
                 <div class="bg-white rounded-3xl shadow-lg overflow-hidden card-hover group">
                     <div class="relative h-64 overflow-hidden">
-                        <img src="assets/images/O que é 16:9 sem Logo.png" alt="Musculação"
-                            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                        <picture>
+                            <source srcset="assets/images/O que é 16:9 sem Logo.webp" type="image/webp">
+                            <img src="assets/images/O que é 16:9 sem Logo.png" alt="Mat Pilates"
+                                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" width="1920" height="1071"
+                                loading="lazy" decoding="async">
+                        </picture>
                     </div>
                     <div class="p-8 space-y-4">
                         <h3 class="text-3xl font-semibold text-brand-blue">Mat Pilates</h3>
@@ -522,8 +540,12 @@
                 <!-- Musculação -->
                 <div class="bg-white rounded-3xl shadow-lg overflow-hidden card-hover group">
                     <div class="relative h-64 overflow-hidden">
-                        <img src="assets/images/Musculação.png" alt="Musculação"
-                            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                        <picture>
+                            <source srcset="assets/images/Musculação.webp" type="image/webp">
+                            <img src="assets/images/Musculação.png" alt="Musculação"
+                                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" width="1920" height="1071"
+                                loading="lazy" decoding="async">
+                        </picture>
                     </div>
                     <div class="p-8 space-y-4">
                         <h3 class="text-3xl font-semibold text-brand-blue">Musculação</h3>
@@ -872,8 +894,12 @@
             </div>
 
             <div class="bg-offwhite rounded-3xl p-12 md:p-16 text-center opacity-0 animate-fade-in-up delay-700">
-                <img src="assets/logos/Logos Especiais/Selo Colorido Azul.png" alt="Selo Julia Rodrigues"
-                    class="h-24 mx-auto mb-8 animate-rotate">
+                <picture>
+                    <source srcset="assets/logos/Logos Especiais/Selo Colorido Azul.webp" type="image/webp">
+                    <img src="assets/logos/Logos Especiais/Selo Colorido Azul.png" alt="Selo Julia Rodrigues"
+                        class="h-24 w-auto mx-auto mb-8 animate-rotate" width="1060" height="1062"
+                        loading="lazy" decoding="async">
+                </picture>
                 <h3 class="text-3xl md:text-4xl font-semibold text-brand-blue mb-6">
                     Pronto para transformar sua vida?
                 </h3>
@@ -949,7 +975,11 @@
         <div class="max-w-7xl mx-auto px-6 md:px-12">
             <div class="grid md:grid-cols-3 gap-12 mb-12 items-start">
                 <div class="flex items-center gap-6 self-center">
-                    <img src="assets/logos/Selo Amarelo.png" alt="Selo Julia Rodrigues" class="h-24 flex-shrink-0">
+                    <picture class="flex-shrink-0">
+                        <source srcset="assets/logos/Selo Amarelo.webp" type="image/webp">
+                        <img src="assets/logos/Selo Amarelo.png" alt="Selo Julia Rodrigues" class="h-24 w-auto flex-shrink-0" width="1060" height="1062"
+                            loading="lazy" decoding="async">
+                    </picture>
                     <p class="font-light text-gray-400 leading-relaxed">
                         Movimento é felicidade. Transforme sua vida através do Mat Pilates e Musculação.
                     </p>
